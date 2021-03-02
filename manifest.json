@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Elmo",
+  "description": "Hi I'm Elmo",
+  "version": "1.1",
+  "icons": {
+    "128": "128.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": ["unlimitedStorage", "notifications"],
+  "browser_action": {
+    "default_icon": "128.png"
+  }
+}
